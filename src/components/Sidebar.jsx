@@ -27,7 +27,7 @@ export default function Sidebar() {
       <div className="mb-2 p-4 flex items-center gap-4">
         <img
           className="h-12 w-12 rounded-lg object-cover object-center"
-          src="/logo_ukmik.png"
+          src="/admin/logo_ukmik.png"
           alt="logo IK"
         />
         <div>
