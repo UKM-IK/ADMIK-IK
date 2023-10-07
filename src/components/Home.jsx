@@ -73,7 +73,7 @@ export default function Home() {
           prevDataCard.map((card) => {
             switch (card.id) {
               case 1:
-                return { ...card, total: response.data.Data.length };
+                return { ...card, total: response.data?.Data?.length };
               case 2:
                 return { ...card, total: dataStatusFee };
               case 3:
