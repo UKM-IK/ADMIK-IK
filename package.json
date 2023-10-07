@@ -2,6 +2,7 @@
   "name": "admin-ik",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://ukmik.utdi.ac.id/admin",
   "dependencies": {
     "@material-tailwind/react": "2.0.4",
     "axios": "^1.5.1",
