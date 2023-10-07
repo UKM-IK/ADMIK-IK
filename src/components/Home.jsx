@@ -59,13 +59,13 @@ export default function Home() {
         });
         console.log(response.data.Data);
   
-        const dataStatusFee = response.data.Data.filter(
+        const dataStatusFee = response.data?.Data?.filter(
           (member) => member.status_fee === 2
         ).length;
-        const dataLaki = response.data.Data.filter(
+        const dataLaki = response.data?.Data?.filter(
           (member) => member.jenis_kelamin.toLowerCase() === "laki-laki"
         ).length;
-        const dataPerempuan = response.data.Data.filter(
+        const dataPerempuan = response.data?.Data?.filter(
           (member) => member.jenis_kelamin.toLowerCase() === "perempuan"
         ).length;
   
